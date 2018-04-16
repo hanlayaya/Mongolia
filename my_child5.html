@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>蒙韵</title>
+    <link rel="shortcut icon" href="images/bitbug_favicon.ico" />
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="my_shezhi_wrap">
+    <h3>个人设置</h3>
+    <!--<img src="images/tx.png" alt="" width="100">-->
+    <h5>修改头像</h5>
+    <div class="container">
+        <div class="imageBox">
+            <div class="thumbBox"></div>
+            <div class="spinner" style="display: none">Loading...</div>
+        </div>
+        <div class="action">
+            <!-- <input type="file" id="file" style=" width: 200px">-->
+            <div class="new-contentarea tc">
+                <a href="javascript:void(0)" class="upload-img"> <label
+                        for="upload-file">上传</label>
+                </a>
+                <input type="file" class="" name="upload-file" id="upload-file" />
+            </div>
+            <input type="button" id="btnCrop" class="Btnsty_peyton" value="裁切">
+            <input type="button" id="btnZoomIn" class="Btnsty_peyton" value="+">
+            <input type="button" id="btnZoomOut" class="Btnsty_peyton" value="-">
+        </div>
+        <div class="cropped">
+            请上传头像
+        </div>
+    </div>
+    <div class="my_shezhi_box">
+        <div class="my_shezhi_username">
+            <label for="my_shezhi_username">用户名：</label>
+            <input type="text" value="hanlayaya" id="my_shezhi_username">
+        </div>
+        <div class="my_shezhi_email">
+            <label for="my_shezhi_email">邮箱：</label>
+            <input type="text" value="928167669@qq.com" id="my_shezhi_email">
+        </div>
+        <div class="my_shezhi_password">
+            <label for="my_shezhi_password">密码：</label>
+            <input type="password" value="hanlayaya" id="my_shezhi_password">
+        </div>
+        <div class="my_shezhi_sex">
+            <label for="my_shezhi_sex">性别：</label>
+            <input type="radio" id="my_shezhi_sex" name="sex">
+            <label for="my_shezhi_sex">男</label>
+            <input type="radio" id="my_shezhi_sex1" name="sex" checked>
+            <label for="my_shezhi_sex1">女</label>
+        </div>
+        <label class="my_shezhi_say">自我介绍：</label>
+        <div class="my_shezhi_say">
+            <textarea name="my_shezhi_say" id="" cols="65" rows="3">呀呀呀。。。 </textarea>
+        </div>
+    </div>
+    <button class="my_shezhi_btn" id="my_shezhi_btn">保 存</button>
+
+</div>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="css/bootstrap/js/bootstrap.min.js"></script>
+<script src="js/index.js"></script>
+<script src="js/cropbox.js"></script>
+</body>
+</html>
