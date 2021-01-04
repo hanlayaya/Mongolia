@@ -109,7 +109,9 @@ object{
     background: #d7991e;
 }
 
-
+.Carousel .thumbnail>img{
+    width:100%;  
+}
 /*.Carousel{*/
     /*width:100% ;*/
     /*!*height: 300px;*!*/
@@ -1442,10 +1444,6 @@ label.my_shezhi_say{
     font-size: 18px;
     right:90px;
 }
-.thumbnail>img{
-	width:100%;
-}
-
 
 
 
