@@ -1442,7 +1442,9 @@ label.my_shezhi_say{
     font-size: 18px;
     right:90px;
 }
-
+.thumbnail>img{
+	width:100%;
+}
 
 
 
