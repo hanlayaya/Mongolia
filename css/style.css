@@ -171,3 +171,7 @@ a.upload-img{
 	filter: alpha(opacity=0);
 	z-index: 2;
 }
+
+.thumbnail>img{
+	width:100%;
+}
